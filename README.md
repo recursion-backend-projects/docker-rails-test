@@ -18,6 +18,14 @@
 git clone リボジトリのURL
 ```
 
+### 環境ファイルの設置
+
+docker-rails-test 直下に.env を作成</br>
+
+```
+MYSQL_ROOT_PASSWORD=password
+```
+
 ### コンテナのビルド
 
 ```bash
