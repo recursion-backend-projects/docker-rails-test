@@ -1,2 +1,2 @@
-# MySQLデータディレクトリ
 src/db/mysql_data/
+*.env

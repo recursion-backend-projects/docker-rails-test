@@ -15,7 +15,7 @@
 ### プロジェクトクローン
 
 ```bash
-git clone リボジトリのURL.git
+git clone リボジトリのURL
 ```
 
 ### コンテナのビルド

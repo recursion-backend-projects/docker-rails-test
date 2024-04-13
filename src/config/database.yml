@@ -51,5 +51,6 @@ test:
 production:
   <<: *default
   database: docker_rails_test_production
-  username: docker_rails_test
-  password: <%= ENV["DOCKER_RAILS_TEST_DATABASE_PASSWORD"] %>
+  username: root
+  password: password
+  host: db

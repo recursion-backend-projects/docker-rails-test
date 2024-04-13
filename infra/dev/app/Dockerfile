@@ -11,8 +11,8 @@ RUN npm install --global yarn
 #docker内の作業ディレクトリを作成＆設定
 WORKDIR /docker-rails-test
 
-#Gemfile,Gemfile.lockをローカルからCOPY
-COPY ./src /docker-rails-test
+# srcをdocker-rails-testにコピー
+COPY src /docker-rails-test
 #コンテナ内にコピーしたGemfileを用いてbundel install
 RUN bundle install
 
