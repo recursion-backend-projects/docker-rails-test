@@ -40,7 +40,7 @@ services:
       - "80:80"
       - "443:443"
     environment:
-      DOMAINS: "docker-rails-test.seiprojects.com -> http://web:80"
+      DOMAINS: "docker-rails-test.seiprojects.com -> http://web:80" # ここは環境毎に変わります
       STAGE: "production"
     volumes:
       - https-portal-data:/var/lib/https-portal
